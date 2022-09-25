@@ -1,0 +1,37 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --grey: #ccc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--white);
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  border: 1px solid var(--grey);
+}
+
+.header-nav ul {
+  padding: 0;
+}
+
+.header-nav ul li {
+  display: inline-block;
+}
+
+.header-nav ul li a {
+  text-decoration: none;
+}
